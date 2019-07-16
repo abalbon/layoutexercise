@@ -1,0 +1,60 @@
+/* Add site styles here */
+h1 {
+    display: flex;
+    color: hotpink;
+    font-family: fantasy;
+    font-size: 60px;
+    text-shadow: 4px 3px lightblue;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    color: aqua;
+    font-family: fantasy;
+    font-size: 40px;
+    justify-content: center;
+}
+
+a {
+    color: aqua;
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+body {
+    display: flex;
+    background: black;
+}
+
+footer {
+    display: flex;
+    color: hotpink;
+    justify-content: center;
+}
+
+.links {
+    color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    font-family: fantasy;
+    color: aqua;
+    justify-content: center;
+}
+
+.navigation {
+    border: 2px;
+    border-style: double;
+    border-color: black;
+    border-block-start-color: hotpink;
+    color: hotpink;
+    display: flex;
+    justify-content: flex-end;
+}

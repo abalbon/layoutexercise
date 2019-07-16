@@ -1,0 +1,19 @@
+/* Add layouts here */
+
+/* Layout 1 */
+a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Layout 2 */
+
+/* Layout 3 */
+
+/* Layout 4 */
+
