@@ -12,7 +12,14 @@ a {
     align-items: center;
 }
 /* Layout 2 */
-
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.links li {
+    display: flex;
+    flex-direction: column;
+}
 /* Layout 3 */
 
 /* Layout 4 */
