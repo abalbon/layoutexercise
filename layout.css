@@ -21,7 +21,11 @@
     display: inline;
 }*/
 /* Layout 2 */
-/*.navigation {
+/*body {
+    display: flex;
+    flex-direction: column;
+}
+.navigation {
     display: flex;
     justify-content: flex-end;
 }
@@ -29,9 +33,57 @@
 .links {
     display: flex;
     justify-content: flex-end;
+    align-items: center
+}
+
+.links li {
+    display: flex;
+    flex-direction: row;
 }*/
 
 /* Layout 3 */
+/*body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header {
+    order: 0;
+    flex:1 100%;
+}
+
+footer {
+    order: 1;
+    flex: 1 100%;
+}
+
+main {
+    align-items: flex-start;
+    flex: 3;
+    order: 3;
+    text-align: center;
+}
+
+.navigation {
+    order: 2;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.links {
+    align-items: center;
+    justify-content: flex-end;
+    order: 4;
+    flex: 1;
+
+}
+
+.links li {
+    display: flex;
+    flex-direction: row;
+}*/
+/* Layout 4 */
 body {
     display: flex;
     flex-wrap: wrap;
@@ -50,20 +102,27 @@ footer {
 
 main {
     align-items: flex-start;
-    flex: 2;
+    flex: 3;
     order: 3;
     text-align: center;
 }
 
 .navigation {
     order: 2;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex: 1;
 }
 
 .links {
+    align-items: center;
+    justify-content: flex-end;
     order: 4;
     flex: 1;
+
 }
-/* Layout 4 */
+
+.links li {
+    display: flex;
+    flex-direction: row;
+}
 
