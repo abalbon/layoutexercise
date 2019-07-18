@@ -96,19 +96,19 @@ header {
 }
 
 footer {
-    order: 1;
+    order: 4;
     flex: 1 100%;
 }
 
 main {
     align-items: flex-start;
-    flex: 3;
+    flex: 2;
     order: 3;
     text-align: center;
 }
 
 .navigation {
-    order: 2;
+    order: 1;
     justify-content: flex-end;
     flex: 1;
 }
@@ -116,7 +116,7 @@ main {
 .links {
     align-items: center;
     justify-content: flex-end;
-    order: 4;
+    order: 3;
     flex: 1;
 
 }
