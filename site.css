@@ -1,19 +1,28 @@
 /* Add site styles here */
+header {
+    order: 0;
+    flex: 1 100%;
+    text-align: center;
+}
+
 h1 {
-    display: flex;
     color: hotpink;
     font-family: fantasy;
     font-size: 60px;
     text-shadow: 4px 3px lightblue;
-    justify-content: center;
 }
 
 h2 {
-    display: flex;
     color: aqua;
     font-family: fantasy;
     font-size: 40px;
-    justify-content: center;
+}
+
+main {
+    align-items: flex-start;
+    flex: 2;
+    order: 3;
+    text-align: center;
 }
 
 a {
@@ -25,36 +34,35 @@ a {
 body {
     display: flex;
     background: black;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 footer {
-    display: flex;
-    color: hotpink;
-    justify-content: center;
-}
-
-.links {
-    color: hotpink;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    flex-direction: row;
-    align-items: center;
-}
-
-p {
-    display: flex;
-    font-family: fantasy;
-    color: aqua;
-    justify-content: center;
-}
-
-.navigation {
     border: 2px;
     border-style: double;
     border-color: black;
-    border-block-start-color: hotpink;
+    border-block-end-color: hotpink;
     color: hotpink;
-    display: flex;
-    justify-content: flex-end;
+    order: 1;
+    flex: 1 100%;
+    text-align: center;
+}
+
+.links {
+    order: 4;
+    color: hotpink;
+    flex: 1;
+}
+
+p {
+    font-family: fantasy;
+    color: aqua;
+}
+
+.navigation {
+    order: 2;
+    color: hotpink;
+    justify-content: flex-start;
+    flex: 1;
 }
