@@ -35,7 +35,7 @@ footer {
     border: 2px;
     border-style: double;
     border-color: black;
-    border-block-end-color: hotpink;
+    border-bottom-color: hotpink;
     color: hotpink;
     order: 1;
     text-align: center;
